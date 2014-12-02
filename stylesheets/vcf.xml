@@ -1,0 +1,36 @@
+<!DOCTYPE DASSTYLE SYSTEM "http://www.biodas.org/dtd/dasstyle.dtd">
+<DASSTYLE>
+  <STYLESHEET version="0.1">
+
+  <CATEGORY id="default">
+    <TYPE id="default">
+      <GLYPH zoom="high">
+       <PLIMSOLL>
+         <BUMP>yes</BUMP>
+         <LABEL>yes</LABEL>
+         <FGCOLOR>blue</FGCOLOR>
+         <STROKECOLOR>black</STROKECOLOR>
+       </PLIMSOLL>
+      </GLYPH>
+
+      <GLYPH zoom="medium">
+       <PLIMSOLL>
+         <BUMP>yes</BUMP>
+         <LABEL>no</LABEL>
+         <FGCOLOR>blue</FGCOLOR>
+         <STROKECOLOR>black</STROKECOLOR>
+       </PLIMSOLL>
+      </GLYPH>
+
+      <GLYPH zoom="low">
+       <PLIMSOLL>
+         <BUMP>yes</BUMP>
+         <LABEL>no</LABEL>
+         <FGCOLOR>blue</FGCOLOR>
+         <STROKECOLOR>black</STROKECOLOR>
+       </PLIMSOLL>
+      </GLYPH>
+    </TYPE>
+   </CATEGORY>
+   </STYLESHEET>
+</DASSTYLE>
