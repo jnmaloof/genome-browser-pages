@@ -102,12 +102,16 @@ var b = new Browser({
                      stylesheet_uri: 'http://symposium.plb.ucdavis.edu/genome-browser/stylesheets/coverage.xml'
                  },
                     {name: 'Chiifu coverage',
-                     desc: 'Chiifu RNAseq coverage',
+                     desc: 'From http://sra.dnanexus.com/studies/SRP017757/experiments',
                      bwgURI: 'http://symposium.plb.ucdavis.edu/genome-browser/data/Brapa1.5/chiifu_v1.5.bw',
                      stylesheet_uri: 'http://symposium.plb.ucdavis.edu/genome-browser/stylesheets/coverage.xml'
                  },
-/*
-                  {name: 'PASA update',
+                  {name: 'de novo predictions',
+                      desc: 'de novo transcript predictions from trinity, velvet, and tophat',
+                      bwgURI: 'http://symposium.plb.ucdavis.edu/genome-browser/data/Brapa1.5/denovo.bb',
+                      collapseSuperGroups: true,
+                      },                 
+ /*			{name: 'PASA update',
                       desc: 'Updated gene structures from BRAD V1.5 + PASA',
                       bwgURI: 'http://symposium.plb.ucdavis.edu/genome-browser/data/Brapa1.5/PASA.bb',
                       collapseSuperGroups: true,
